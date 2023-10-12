@@ -1,3 +1,4 @@
+import Feed from "@components/Feed"
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <p className="desc text-center">
         This is a prompting tool for the world to discover and share usefull prompt.
       </p>
+      <Feed/>
     </section>
   )
 }
